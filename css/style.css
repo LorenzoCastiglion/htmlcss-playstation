@@ -41,6 +41,26 @@
     background-size: cover;
 }
 
+
+
 #hero img{
     margin-top: 150px  ;
+}
+
+img{
+    max-width: 100%;
+}
+
+.overlay:hover{
+    border: 1px solid var(--blue);
+    border-spacing: 10px ;
+    border-radius: 10px;
+    border-collapse: separate;
+}
+
+.bg-news{
+    height: 70vh;
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-position: center ;
+    background-size: cover;
 }
