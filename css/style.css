@@ -1,0 +1,35 @@
+:root{
+    /* Color styles */
+--black: #1F1F1F;
+--blue: #3A6DE7;
+--light-grey: #BEBCBB;
+--dark-grey:#363636;
+--dark-blue: #161C3B;
+--red: #CD3D0F;
+--lavish-white: #D9DADC;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.mybg-black{
+    background-color: var(--black);
+}
+
+.mybg-light-grey{
+    background-color: var(--light-grey);
+}
+
+.mybg-dark-blue{
+    background-color: var(--dark-blue);
+}
+
+.mybg-blue{
+    background-color: var(--blue);
+}
