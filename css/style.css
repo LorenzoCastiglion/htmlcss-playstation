@@ -67,3 +67,10 @@ img{
     background-position: center ;
     background-size: cover;
 }
+
+.plus{
+    background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain; 
+}
