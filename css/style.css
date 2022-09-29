@@ -33,3 +33,14 @@
 .mybg-blue{
     background-color: var(--blue);
 }
+
+#hero{
+    height: 60vh;
+    background-image: url('../img/jumbo-bg.png');
+    background-position: center ;
+    background-size: cover;
+}
+
+#hero img{
+    margin-top: 150px  ;
+}

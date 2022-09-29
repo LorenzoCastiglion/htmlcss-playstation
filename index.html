@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
@@ -14,93 +20,202 @@
 
     <title>PlayStation</title>
 </head>
+
 <body>
-    
 
-        <header>
-            <div class=" text-white bg-black">
-               <div class="col-2 ms-auto py-2 pe-2">
-               </div>
+
+    <header class="">
+        <div class="text-white bg-black  container-fluid ">
+            <div class="col-2 ms-auto py-2 pe-2">
+                <img src="./img/sony_logo.svg" alt="">
             </div>
-            <nav>
-                <nav class="navbar navbar-expand-md  h-100 sticky-top">
-                    <div class="container-md text-uppercase">
-                        <a class="navbar-brand" href="#"><div></div></a>
-                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#boot-navbar" aria-controls="boot-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="navbar-collapse text-end pt-3 collapse" id="boot-navbar" >
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark link-success" aria-current="page" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class=" ms-auto text-white nav-link text-dark link-success btn btn-dark border rounded-pill" href="#">Accedi</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark link-success" href="#">My Playstation</a>
-                                </li>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-white bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav d-flex flex-grow-1 text-end ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Giochi
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                        </div>
-                    </div>
-                </nav>
-            </nav>
-        </header>
-    
-        <main>
-    
-            <section id="hero" class="container-fluid ">
-                <img src="./img/returnal-hero-banner-logo.png" alt="">
-                <h2>Rompi il cerchio</h2>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Hardware
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Servizi
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Novit&agrave;
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Fai acuisti
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Supporto
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
 
-            </section>
-    
-    
-            <section id="carousel" class="container-fluid">
-                carousel
-            </section>
-    
-            <section id="hero2" class="container-fluid">
-                hero2
-            </section>
-    
-            <section id="nuove-uscite" class="container-fluid mybg-black">
-                nuove uscite
-            </section>
-    
-            <section id="prodotti" class="container-fluid">
-                prodotti
-            </section>
-    
-            <section id="esplora" class="container-fluid mybg-light-grey">
-                esplora
-            </section>
-    
-            <section id="sconti" class="container-fluid">
-                sconti
-            </section>
-    
-            <section id="play-now" class="container-fluid mybg-dark-blue">
-                play now
-            </section>
-    
-            <section id="social" class="container-fluid">
-                social
-            </section>
-    
-        </main>
-    
-        <footer class="mybg-blue">
-    
-            <div class="footer">
-                footer top
+                    </ul>
+
+                    <ul class="navbar-nav d-flex flex-grow-1 justify-content-end text-end ">
+
+                        <li class="nav-item dropdown pe-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                My PlayStation
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item pe-2">
+                            <button type="button" class="btn btn-dark rounded-pill">Accedi</button>
+                        </li>
+
+                        <li class="nav-item ">
+                            <form class="d-flex" role="search">
+                                <a href="#"><img class="w-50" src="./img/lens.svg" alt=""></a>
+                            </form>
+                        </li>
+
+                    </ul>
+
+
+                </div>
             </div>
-    
-            <div class="footer-bottom">
-                footer bottom
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="hero" class="container-fluid text-white ">
+            <div class="container-xxl">
+                <div class="col-lg-4 pt-5  ">
+                    <img class="mb-3 w-50" src="./img/returnal-hero-banner-logo.png" alt="">
+                    <h2 class="fs-1">Rompi il cerchio</h2>
+                    <p class="my-4">Rialzati dopo ogni sconfitta e affronta una nuova eaffronta una nuova sfida con ogni
+                        rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+                    <button type="button" class="btn btn-danger rounded-pill mb-4">Acquista ora</button>
+
+                </div>
+
+
             </div>
-        </footer>
-    
-    
+
+        </section>
+
+
+        <section id="carousel" class="container-fluid mt-4">
+
+            <div class="row gx-3 gy-3  container-xxl">
+                
+
+
+            </div>
+
+
+        </section>
+
+        <section id="hero2" class="container-fluid">
+            hero2
+        </section>
+
+        <section id="nuove-uscite" class="container-fluid mybg-black">
+            nuove uscite
+        </section>
+
+        <section id="prodotti" class="container-fluid">
+            prodotti
+        </section>
+
+        <section id="esplora" class="container-fluid mybg-light-grey">
+
+        </section>
+
+        <section id="sconti" class="container-fluid">
+            sconti
+        </section>
+
+        <section id="play-now" class="container-fluid mybg-dark-blue">
+            play now
+        </section>
+
+        <section id="social" class="container-fluid">
+            social
+        </section>
+
+    </main>
+
+    <footer class="mybg-blue">
+
+        <div class="footer">
+            footer top
+        </div>
+
+        <div class="footer-bottom">
+            footer bottom
+        </div>
+    </footer>
+
+
 </body>
+
 </html>
