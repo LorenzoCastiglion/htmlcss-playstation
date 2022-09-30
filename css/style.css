@@ -35,7 +35,8 @@
 }
 
 #hero{
-    height: 60vh;
+    padding-bottom: 10vh;
+    padding-top: 20vh;
     background-image: url('../img/jumbo-bg.png');
     background-position: center ;
     background-size: cover;
@@ -54,18 +55,56 @@ img{
     max-width: 100%;
 }
 
-.overlay:hover{
-    border: 1px solid var(--blue);
-    border-spacing: 10px ;
-    border-radius: 10px;
-    border-collapse: separate;
-}
+
 
 .bg-news{
-    height: 70vh;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-position: center ;
     background-size: cover;
 }
 
+#nuove-uscite img{
+    filter: blur(10px);
+    /* filter: saturate(0%);   */
+    transition: 0.5s;
+}
 
+#nuove-uscite img:hover{
+    filter: blur(0px);
+     
+}
+
+#carousel .carta{
+    cursor: pointer;
+    
+    transition: 1s;
+}
+
+#carousel .carta:hover{
+    
+    transform: rotateY(360deg);
+    
+}
+
+.overlay{
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    filter: opacity(0.5);
+}
+
+.overlay:hover{
+    filter: opacity(100);
+    border-bottom: 2px solid var(--blue);
+    
+}
+
+.social{
+    cursor: pointer;
+    transition: 1s;
+}
+
+#scl .social:hover{
+    border-radius: 200px;
+}
