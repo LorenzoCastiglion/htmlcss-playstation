@@ -6,7 +6,7 @@
 --dark-grey:#363636;
 --dark-blue: #161C3B;
 --red: #CD3D0F;
---lavish-white: #D9DADC;
+--lavish-white: #d9dadcd3;
 
 }
 
@@ -107,4 +107,29 @@ img{
 
 #scl .social:hover{
     border-radius: 200px;
+}
+
+.disclaimer{
+    opacity: 0 ;
+    background-color: var(--dark-blue);
+    border-radius: 15px;
+    padding: 1rem;
+    width: 40%;
+    height: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 33px 1px rgba(255,255,255,1);
+    transition: 0.8s; 
+    z-index: 100;  
+}
+
+
+.sales:hover  .disclaimer{
+    opacity: 1;
+    
+}
+
+.sales:hover .sales-img{
+    filter: blur(10px);
 }
