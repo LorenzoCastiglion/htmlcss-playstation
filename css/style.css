@@ -47,6 +47,54 @@
     -webkit-text-stroke-color:var(--dark-grey);
 }
 
+
+
+/* navbar */
+header .my_nav_hover:hover {
+    color: var(--blue) !important;
+}
+.my_visible,
+.my_visible_none {
+    width: 10px;
+}
+.my_nav_hover:hover .my_visible {
+    display: none;
+}
+.my_visible_none {
+    display: none;
+}
+.my_nav_hover:hover .my_visible_none {
+    display: inline;
+}
+.my_dropdown_a {
+    text-decoration: none;
+}
+.my_dropdown_a:hover {
+    text-decoration: underline;
+}
+::marker {
+    color: var(--blue);
+}
+.my_dropdown_item:hover{
+    color: var(--bs-dropdown-link-hover-color);
+    background-color: var(--bs-white) !important;  
+    border-radius: 20px;
+    border: 2px solid var(--blue);
+    transform: translateY(-10px);
+}
+/* HEADER BOTTOM RIGHT */
+.lens {
+    height: 25px;
+    vertical-align: middle;
+}
+.my_btn_black:hover {
+    color: var(--bs-white);
+    border: 1px solid var(--bs-white) !important;
+    outline: 2px solid black;
+}
+
+
+/* hero */
 #hero img{
     margin-top: 150px  ;
 }
@@ -55,8 +103,21 @@ img{
     max-width: 100%;
 }
 
+/* carosello not carosello */
+#carousel .carta{
+    cursor: pointer;
+    
+    transition: 1s;
+}
+
+#carousel .carta:hover{
+    
+    transform: rotateY(360deg);
+    
+}
 
 
+/* sect nuove uscite */
 .bg-news{
     padding-bottom: 10vh;
     padding-top: 10vh;
@@ -76,17 +137,7 @@ img{
      
 }
 
-#carousel .carta{
-    cursor: pointer;
-    
-    transition: 1s;
-}
 
-#carousel .carta:hover{
-    
-    transform: rotateY(360deg);
-    
-}
 
 .overlay{
     border-bottom: 2px solid transparent;
@@ -109,12 +160,14 @@ img{
     border-radius: 200px;
 }
 
+
+/* sezioe sconti */
 .disclaimer{
     opacity: 0 ;
     background-color: var(--dark-blue);
     border-radius: 15px;
     padding: 1rem;
-    width: 40%;
+    width: 50%;
     height: 60%;
     top: 50%;
     left: 50%;
